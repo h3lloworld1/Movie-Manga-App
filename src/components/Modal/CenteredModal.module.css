@@ -1,0 +1,16 @@
+.modal_text {
+  color: #faa300;
+}
+
+.login_button {
+  display: flex;
+  margin-top: 13px;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 992px) {
+  .login_button {
+    justify-content: center;
+    margin-top: 2px;
+  }
+}

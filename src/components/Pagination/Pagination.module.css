@@ -1,0 +1,11 @@
+.pagination_container {
+  padding-bottom: 40px;
+  background: rgba(34, 33, 33, 0.6);
+}
+
+@media only screen and (max-width: 768px) {
+  .image_container {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,31 @@
+.main_container {
+  height: 60px;
+  background-color: #20232a;
+  color: white;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.icons {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.icons:hover {
+  color: #faa300;
+}
+
+@media only screen and (max-width: 551px) {
+  .main_container {
+    height: 80px;
+    font-size: 12px;
+  }
+  .footer_container {
+    height: 80px;
+  }
+}

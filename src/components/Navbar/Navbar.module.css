@@ -1,0 +1,38 @@
+.navbar_bacgkround {
+  background-color: #20232a;
+  height: 60px;
+}
+
+.collapse {
+  background-color: #20232a;
+}
+
+.nav_links {
+  font-size: 17px;
+  text-decoration: none;
+  padding-right: 19px;
+  font-weight: 500;
+  color: #f1a10b;
+}
+
+.nav_linksRight {
+  color: #f1a10b;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav_linksRight:hover {
+  color: #f9ffc5;
+  transition: 0.3s ease-in-out;
+}
+
+.nav_links:hover {
+  color: #f9ffc5;
+  transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 992px) {
+  .collapse {
+    text-align: center;
+  }
+}

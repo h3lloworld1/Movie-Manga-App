@@ -1,0 +1,94 @@
+.main_container {
+  background: rgba(34, 33, 33, 0.6);
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 1px;
+}
+
+.image {
+  border: 1px solid rgb(207, 198, 198);
+  border-radius: 10px;
+}
+
+.anime_name {
+  color: #faa300;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.user_dummy {
+  color: rgb(168, 168, 255);
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.review_container {
+  border: 1px solid rgb(207, 198, 198);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.user_review {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.rating_stars {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ratings_text {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .image_container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .review_container {
+    margin: 18px 0px;
+  }
+  .overall {
+    padding: 10px;
+    margin-top: 2px;
+  }
+
+  .anime_name {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .rating_stars {
+    display: flex;
+
+    font-size: 12px;
+  }
+
+  .ratings_col {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .anime_name {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .image {
+    height: 211px;
+  }
+}

@@ -1,0 +1,85 @@
+.home_container {
+  background: rgba(34, 33, 33, 0.6);
+  margin-top: 50px;
+  min-height: 900px;
+  padding-bottom: 50px;
+}
+
+.search_container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.switch_container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #faa300;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card_container {
+  width: 230px;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.headerCard_span {
+  cursor: pointer;
+}
+
+.card_image {
+  width: 100%;
+  height: 330px;
+}
+
+.episodes {
+  position: absolute;
+  bottom: 59px;
+  left: 5px;
+  font-size: 13px;
+  background-color: white;
+  color: #afaeae;
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+.episodes_number {
+  margin-right: 5px;
+}
+
+.card_title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #0d6efd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card_info {
+  text-align: center;
+  font-size: 14px;
+  color: #afaeae;
+  font-weight: 500;
+}
+
+.nav_link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .col_container {
+    padding: 4px;
+  }
+}

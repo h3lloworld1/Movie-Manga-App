@@ -1,0 +1,94 @@
+.main_container {
+  background: rgba(34, 33, 33, 0.6);
+  margin-top: 50px;
+  padding-bottom: 40px;
+  min-height: 900px;
+}
+
+.main_container img {
+  height: 650px;
+  box-shadow: 13px 13px 5px rgba(34, 33, 33, 0.6);
+}
+
+.headerCard_span {
+  cursor: pointer;
+}
+
+.switch_container {
+  display: flex;
+  justify-content: center;
+}
+
+.search_container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.anime_name {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.anime_description {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.rank {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: right;
+}
+
+.rank_badge {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.rating_stars {
+  display: flex;
+}
+
+.rating_text {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.api_values {
+  color: #faa300;
+}
+
+.info {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 991px) {
+  .main_container img {
+    height: 550px;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .main_container img {
+    height: 400px;
+    box-shadow: none;
+  }
+}
